@@ -4,7 +4,7 @@
   "description": "The game of life",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage",
     "prepare": "husky install"
   },
   "repository": {
@@ -18,7 +18,17 @@
   },
   "homepage": "https://github.com/Huck8/202301-w2chwe-angel-contioso#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "husky": "^8.0.0",
     "jest": "^29.4.1"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
   }
 }
