@@ -1,0 +1,19 @@
+{
+  "name": "weeken-2",
+  "version": "1.0.0",
+  "description": "The game of life",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huck8/202301-w2chwe-angel-contioso.git"
+  },
+  "author": "Ángel Contioso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huck8/202301-w2chwe-angel-contioso/issues"
+  },
+  "homepage": "https://github.com/Huck8/202301-w2chwe-angel-contioso#readme"
+}
